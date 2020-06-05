@@ -1,0 +1,36 @@
+
+@mixin vierkant ($background-color) {
+    width: 400px;
+    height: 400px;
+    background: $background-color;
+}
+
+@mixin cirkel ($background-color){
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: $background-color;
+    
+}
+
+.figuur1 {
+    @include vierkant(purple);
+    position: absolute; top: 0px; left: 0px;
+
+    &__cirkel {
+        @include cirkel(white);
+        position: absolute; top: 100px; left: 100px;             
+    }
+}
+  
+
+.figuur2 {
+    @include vierkant(white);
+    position: absolute; top: 500px; left: 0px;
+    border: 1px dotted purple;
+
+    &__cirkel--rev {
+        @include cirkel(purple);
+        position: absolute; top: 100px; left: 100px;  
+    }
+}

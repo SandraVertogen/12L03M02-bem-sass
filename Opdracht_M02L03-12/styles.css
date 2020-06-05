@@ -1,0 +1,39 @@
+.figuur1 {
+  width: 400px;
+  height: 400px;
+  background: purple;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.figuur1__cirkel {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.figuur2 {
+  width: 400px;
+  height: 400px;
+  background: white;
+  position: absolute;
+  top: 500px;
+  left: 0px;
+  border: 1px dotted purple;
+}
+
+.figuur2__cirkel--rev {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: purple;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+/*# sourceMappingURL=styles.css.map */
